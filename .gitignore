@@ -1,0 +1,46 @@
+# ===========================================
+# POCKET NETWORK - GITIGNORE
+# CRITICAL: Never commit keys or secrets!
+# ===========================================
+
+# ===== SECRETS & KEYS (NEVER COMMIT) =====
+.env
+.env.*
+*.env
+.wallet_backup
+*_backup
+*.key
+*.pem
+*private*
+*secret*
+keyring-*
+
+# ===== BINARIES (too large for git) =====
+pocketd
+pocketd.*
+*.tar.gz
+v0.1.1_bin/
+pocket-core/
+poktroll/
+
+# ===== NODE DATA (generated, not needed) =====
+node/
+data/
+*.db
+*.log
+
+# ===== SYSTEMD SERVICE FILES =====
+# (contain paths, not secrets, but not needed in repo)
+*.service
+
+# ===== OS FILES =====
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# ===== TEMP FILES =====
+*.tmp
+*.bak
+nohup.out

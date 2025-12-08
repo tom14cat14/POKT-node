@@ -1,0 +1,12 @@
+default_signing_key_names:
+  - supplier-wallet
+smt_store_path: /home/tom14cat14/.pocket/smt
+pocket_node:
+  query_node_rpc_url: tcp://127.0.0.1:26657
+  query_node_grpc_url: tcp://127.0.0.1:9090
+  tx_node_rpc_url: tcp://127.0.0.1:26657
+suppliers:
+  - service_id: "solana"
+    service_config:
+      backend_url: "https://dian-8gkewt-fast-mainnet.helius-rpc.com"
+    listen_url: "http://127.0.0.1:8545"
