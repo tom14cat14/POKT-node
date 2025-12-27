@@ -8,5 +8,15 @@ pocket_node:
 suppliers:
   - service_id: "solana"
     service_config:
-      backend_url: "https://dian-8gkewt-fast-mainnet.helius-rpc.com"
-    listen_url: "http://127.0.0.1:8545"
+      backend_url: "http://127.0.0.1:8081"
+    listen_url: "http://0.0.0.0:8545"
+
+  - service_id: "bsc"
+    service_config:
+      backend_url: "http://127.0.0.1:8082"
+    listen_url: "http://0.0.0.0:8545"
+
+  - service_id: "opbnb"
+    service_config:
+      backend_url: "http://127.0.0.1:8083"
+    listen_url: "http://0.0.0.0:8545"

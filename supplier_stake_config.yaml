@@ -1,0 +1,18 @@
+owner_address: pokt1azdnnltewxtwfuv2etzhe8n0857xeyyvvhqlrk
+operator_address: pokt1azdnnltewxtwfuv2etzhe8n0857xeyyvvhqlrk
+stake_amount: 71080000000upokt
+default_rev_share_percent:
+  pokt1azdnnltewxtwfuv2etzhe8n0857xeyyvvhqlrk: 100
+services:
+  - service_id: solana
+    endpoints:
+      - publicly_exposed_url: https://pokt-rpc.sol-pulse.com
+        rpc_type: JSON_RPC
+  - service_id: bsc
+    endpoints:
+      - publicly_exposed_url: https://pokt-rpc.sol-pulse.com
+        rpc_type: JSON_RPC
+  - service_id: opbnb
+    endpoints:
+      - publicly_exposed_url: https://pokt-rpc.sol-pulse.com
+        rpc_type: JSON_RPC
